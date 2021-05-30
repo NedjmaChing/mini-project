@@ -1,0 +1,25 @@
+@import 'variables.css';
+@import 'styles.css';
+
+header {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul li {
+    display: inline-block;
+    margin-left: var(--sm);
+    padding: var(--xs);
+}
+
+header ul li a {
+    color: var(--white);
+    text-decoration: none;
+    transition: var(--transition);
+}
+header ul li a:hover {
+    text-decoration: underline;
+}

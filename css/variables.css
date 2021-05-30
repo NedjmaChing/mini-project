@@ -1,0 +1,15 @@
+:root {
+    --primary-color: #43943d;
+    --white: #ffffff;
+    --off-white: #f8f8f8;
+    --xs: 1em;
+    --sm: 1.5em;
+    --md: 2em;
+    --lg: 2.5em;
+    --radius: 5px;
+    --transition: 0.3s linear all;
+}
+
+html {
+    font-size: 16px;
+}

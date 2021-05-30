@@ -1,0 +1,38 @@
+@import 'variables.css';
+@import 'styles.css';
+
+h2 {
+    text-align: center;
+}
+
+main {
+    border: 2px solid var(--primary-color);
+    border-radius: var(--radius);
+    background-color: white;
+    padding: var(--sm);
+    margin: var(--lg) auto;
+    width: 80%;
+}
+
+section:nth-child(2) p {
+    line-height: 1.5;
+    margin-bottom: var(--sm);
+}
+
+section:first-child p {
+    margin-bottom: var(--sm);
+}
+
+section:last-child {
+    margin-top: var(--md);
+    margin-bottom: var(--sm);
+}
+
+section:last-child a {
+    background-color: var(--primary-color);
+    border-radius: var(--radius);
+    color: var(--white);
+    padding: var(--xs) var(--sm);
+    text-decoration: none;
+    margin-right: var(--md);
+}
